@@ -1,91 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Testing and Debugging Course
 
-## Available Scripts
+A hands-on React project focused on testing and debugging best practices. Includes examples of unit tests, snapshot testing with Jest, debugging techniques, ESLint optimization, and type checking with Flow. Great for learning and practicing robust React development workflows.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Unit and snapshot testing with Jest
+- Debugging with React Developer Tools and Chrome DevTools
+- Code linting with ESLint
+- Type checking with Flow
+- Example React components and test files
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📦 Getting Started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Install dependencies:
 
-### `npm test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the development server:
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run tests:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+npm test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build for production:
 
-### `npm run eject`
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🧪 Testing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Run `npm test` to launch the test runner in watch mode.
+- Snapshot tests are included for key components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🛠️ Debugging
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Use Chrome DevTools or install React Developer Tools for advanced debugging.
+- To launch standalone React DevTools:
+  ```bash
+  npx react-devtools
+  ```
 
-## Learn More
+## 🧹 Linting & Type Checking
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Lint your code with ESLint: `npm run lint` (if configured)
+- Type check with Flow: `npx flow` (if configured)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📚 Learn More
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-
-
-
-# 📘 React Testing and Debugging Guide
-
-## 🎯 Learning Objectives
-
-- ✅ Setting up React testing and debugging  
-- 🧪 Testing with Jest  
-- 🖼️ Snapshot testing  
-- 🧩 Debugging with Chrome and Chrome extensions  
-- 🧹 Optimizing React code with ESLint  
-- 🔎 Type checking with Flow  
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React Documentation](https://reactjs.org/)
+- [Jest Documentation](https://jestjs.io/)
+- [ESLint Documentation](https://eslint.org/)
+- [Flow Documentation](https://flow.org/)
 
 ---
 
-## ⚙️ 1. React Developer Tools Setup
-
-- **Option 1:** Install via Chrome Extension  
-- **Option 2:** Standalone:  
-  ```bash
-  npx react-devtools
+Happy coding and testing!
